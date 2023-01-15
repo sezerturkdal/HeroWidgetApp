@@ -13,7 +13,7 @@ struct CircularImageView: View {
         image.resizable()
             .aspectRatio(contentMode: .fit)
             .clipShape(Circle())
-            .overlay(Circle().stroke(Color.purple, lineWidth: 5))
+            .overlay(Circle().stroke(Color.green, lineWidth: 5))
             .shadow(radius: 2)
     }
 }

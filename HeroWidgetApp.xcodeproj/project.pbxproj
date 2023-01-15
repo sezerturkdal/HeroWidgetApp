@@ -13,6 +13,7 @@
 		E522865C2974597800D864DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E522865B2974597800D864DF /* Preview Assets.xcassets */; };
 		E522866329745AE900D864DF /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = E522866229745AE900D864DF /* SuperHero.swift */; };
 		E522866529745DA400D864DF /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E522866429745DA400D864DF /* CircularImageView.swift */; };
+		E52286672974961100D864DF /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52286662974961100D864DF /* HeroView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		E522865B2974597800D864DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E522866229745AE900D864DF /* SuperHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHero.swift; sourceTree = "<group>"; };
 		E522866429745DA400D864DF /* CircularImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImageView.swift; sourceTree = "<group>"; };
+		E52286662974961100D864DF /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				E52286542974597600D864DF /* HeroWidgetAppApp.swift */,
 				E522866429745DA400D864DF /* CircularImageView.swift */,
 				E52286562974597600D864DF /* ContentView.swift */,
+				E52286662974961100D864DF /* HeroView.swift */,
 				E522866229745AE900D864DF /* SuperHero.swift */,
 				E52286582974597800D864DF /* Assets.xcassets */,
 				E522865A2974597800D864DF /* Preview Content */,
@@ -147,6 +150,7 @@
 				E522866529745DA400D864DF /* CircularImageView.swift in Sources */,
 				E52286552974597600D864DF /* HeroWidgetAppApp.swift in Sources */,
 				E522866329745AE900D864DF /* SuperHero.swift in Sources */,
+				E52286672974961100D864DF /* HeroView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
