@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WidgetKit
 
 let superHeroArray = [superman,batman,spiderman]
 
@@ -30,6 +31,7 @@ struct ContentView: View {
         if let heroDataJson = try? JSONEncoder().encode(hero){
             self.heroData = heroDataJson
             print(hero.name)
+            WidgetCenter.shared.reloadTimelines(ofKind: "HeroWidget")
         }
     }
 }

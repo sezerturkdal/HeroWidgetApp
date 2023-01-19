@@ -47,7 +47,7 @@ struct HeroWidgetEntryView : View {
     var entry: Provider.Entry
 
     var body: some View {
-        Text(entry.date, style: .time)
+        CircularImageView(image: Image(entry.hero.image))
     }
 }
 
@@ -58,14 +58,14 @@ struct HeroWidget: Widget {
         IntentConfiguration(kind: kind, intent: ConfigurationIntent.self, provider: Provider()) { entry in
             HeroWidgetEntryView(entry: entry)
         }
-        .configurationDisplayName("My Widget")
+        .configurationDisplayName("Hero Widget")
         .description("This is an example widget.")
     }
 }
 
 struct HeroWidget_Previews: PreviewProvider {
     static var previews: some View {
-        HeroWidgetEntryView(entry: SimpleEntry(date: Date(), configuration: ConfigurationIntent()))
+        HeroWidgetEntryView(entry: SimpleEntry(date: Date(), configuration: ConfigurationIntent(), hero: batman))
             .previewContext(WidgetPreviewContext(family: .systemSmall))
     }
 }
